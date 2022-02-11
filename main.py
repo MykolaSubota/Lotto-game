@@ -114,7 +114,7 @@ while not end_of_the_game:
             playing_players += 1
     if playing_players == 1:
         end_of_the_game = True
-print(f'{"End of the  game".center(26, " ")}\n{"Game result:".center(26, "-")}')
+print(f'{"End of the game".center(26, " ")}\n{"Game result:".center(26, "-")}')
 print_cards(players)
 players.sort(key=lambda x: x.points, reverse=False)
 for player in players:
